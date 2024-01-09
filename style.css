@@ -1,0 +1,469 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+input {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  flex-grow: 1;
+}
+body {
+  background: #f4f6f8;
+}
+.container {
+  width: 100%;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid red; */
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.dark-dev {
+  width: 1110px;
+  height: 80px;
+  /* border: 1px solid gold; */
+  display: flex;
+  margin-left: 10rem;
+}
+.site-title {
+  width: 205px;
+  height: 40px;
+  font-size: 28px;
+  color: #fff;
+  margin-top: 3rem;
+}
+.navbar_container {
+  height: 140px;
+  border-radius: 0px 0px 0px 100px;
+  background-color: #5964e0;
+}
+.past_container {
+  width: 1114px;
+  margin-left: 150px;
+  /* border: 1px solid gold; */
+}
+.restangle {
+  width: 1110px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #fff;
+  margin-top: -25px;
+  display: flex;
+}
+.inp_div img {
+  margin-left: 15px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+.yonbosh {
+  margin-left: -100px;
+  margin-top: 50px;
+}
+.inp {
+  width: 300px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+}
+
+.ciziq {
+  width: 1px;
+  height: 80px;
+  opacity: 0.5;
+  background: #6e8098;
+  margin-left: 20px;
+}
+.inp_div_b {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.inp_div_b input {
+  width: 24px;
+  height: 24px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.inp_div_b button {
+  width: 123px;
+  height: 48px;
+  border: none;
+  color: #fff;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 5px;
+  background: #5964e0;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.inp_div_b button:hover {
+  background: #939bf4;
+}
+.inp_div_b h4 {
+  color: #19202d;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 19px;
+}
+.yashiqlar {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 10rem;
+}
+.yashiq {
+  width: 350px;
+  height: 228px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #fff;
+  margin-top: 4rem;
+}
+.yashiq.dark {
+  background: #19202d;
+}
+.yashiq_con {
+  width: 286px;
+  height: 147px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.yashiq_con p {
+  color: #6e8098;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.yashiq_con h3 {
+  color: #19202d;
+  font-family: "Kumbh Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.yashiq_con h6 {
+  color: #5964e0;
+  font-family: "Kumbh Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 30px;
+}
+.yashiq img {
+  width: 50px;
+  height: 50px;
+  margin-left: 2rem;
+  margin-top: -20px;
+}
+.btn {
+  width: 141px;
+  height: 48px;
+  border-radius: 5px;
+  background: #5964e0;
+  color: #fff;
+  text-align: center;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  margin-top: 6rem;
+  margin-left: 450px;
+  margin-bottom: 4rem;
+}
+.btn:hover {
+  background: #939bf4;
+}
+/* ///////////////////////////////////// scoot index */
+
+.scoot_navbar {
+  width: 730px;
+  height: 140px;
+  margin-left: 20rem;
+  margin-top: -40px;
+  border-radius: 6px;
+  background: #fff;
+  display: flex;
+}
+.btn_scoot {
+  width: 147px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: none;
+  background: #a8acea;
+  color: #020421;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  margin-left: 280px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.scoot_navbar h2 {
+  color: #19202d;
+  font-family: "Kumbh Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+.scoot_navbar p {
+  color: #6e8098;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 5.5rem;
+  margin-left: -55px;
+}
+.scoot_past {
+  width: 730px;
+  height: 1250px;
+  border-radius: 6px;
+  background-color: #fff;
+  margin-left: 20rem;
+  margin-top: 3rem;
+}
+
+.titles {
+  width: 639px;
+  margin-left: 45px;
+}
+
+.boshi h5 {
+  color: #6e8098;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 2rem;
+}
+.boshi h2 {
+  color: #19202d;
+  font-family: "Kumbh Sans";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 5px;
+}
+.boshi h6 {
+  color: #5964e0;
+  font-family: "Kumbh Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+}
+.boshi button {
+  width: 141px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #5964e0;
+  color: #fff;
+  text-align: center;
+  font-family: "Kumbh Sans";
+  border: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+.boshi p {
+  color: #6e8098;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 4rem;
+}
+.btn_che {
+  margin-left: 490px;
+  margin-top: -63px;
+  cursor: pointer;
+}
+.btn_che button:hover {
+  background: #939bf4;
+}
+.Requirements {
+  margin-top: 4rem;
+}
+.Requirements h2 {
+  color: #19202d;
+  font-family: "Kumbh Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Requirements p {
+  color: #6e8098;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 2rem;
+}
+.Requirements ul {
+  color: #6e8098;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 2rem;
+  margin-left: 20px;
+}
+.what h2 {
+  color: #19202d;
+  font-family: "Kumbh Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 4rem;
+}
+.what p {
+  color: #6e8098;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.what h3 {
+  color: #6e8098;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.eng_pa {
+  background-color: #fff;
+  margin-top: 4rem;
+  height: 96px;
+}
+.pasti {
+  width: 700px;
+  height: 95px;
+  margin-left: 400px;
+  display: flex;
+}
+.pasti h2 {
+  color: #19202d;
+  font-family: "Kumbh Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 1rem;
+}
+.pasti p {
+  color: #6e8098;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 50px;
+  margin-left: -220px;
+}
+.pasti button {
+  width: 141px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #5964e0;
+  color: #fff;
+  border: none;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 29rem;
+  margin-top: 1.8rem;
+  cursor: pointer;
+}
+.pasti button:hover {
+  background: #939bf4;
+}
+/* /////////////////////////////////////////// scoot index */
+
+/* //////////////////////////////////////// dark--- modd */
+
+.theme-panel {
+  margin-left: 880px;
+  margin-top: 3rem;
+}
+.title.dark {
+  color: #fff;
+}
+
+.theme-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19.25px;
+  letter-spacing: 2.5px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.theme-panel {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+#moon,
+#sun {
+  cursor: pointer;
+}
+
+#sun {
+  display: none;
+}
